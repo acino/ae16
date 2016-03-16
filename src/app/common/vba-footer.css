@@ -1,0 +1,43 @@
+.footer-container {
+  min-height: 20vh;
+  position: relative;
+  box-sizing: border-box;
+
+  color: #aaa;
+  background: #e9e9e9;
+}
+
+ul, li {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+strong {
+  color: #666;
+}
+
+.acino-logo {
+  width: 75px;
+  height: 24px;
+
+  margin-bottom: 32px;
+}
+
+@media(min-width: 768px) {
+  .acino-logo {
+    width: 100px;
+    height: 32px;
+  }
+}
+
+@media(max-width: 768px) {
+  .acino-logo {
+    margin-bottom: 0;
+  }
+
+  .col-xs-12 {
+    margin-bottom: 16px;
+  }
+}

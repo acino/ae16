@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Alexander Sehlin",
+    "image": "assets/img/speaker_alexander-sehlin.jpg",
+    "slug": "alexander-sehlin",
+    "company": "Cinnober Finnancial Technology",
+    "companyUrl": "https://www.cinnober.se",
+    "bio": "Alexander works at Cinnober Financial Technology, a company that provides solutions and services to leading trading and clearing venues, including exchanges, clearinghouses, banks and brokers. Cinnober's solutions are largely based on the TRADExpress™ Platform, incorporating everything needed for mission-critical solutions in terms of performance, robustness and flexibility. The portfolio of offerings includes price discovery and matching, real-time risk management, clearing and settlement, index calculation, data distribution and surveillance. Cinnober's customers include ASX, JPX, BM&FBOVESPA, Deutsche Börse, Dubai Gold & Commodities Exchange, Eurex, Euronext, Johannesburg Stock Exchange, London Metal Exchange, LME Clear and Stock Exchange of Thailand."
+  },
+  {
+    "name": "Andrey Devyatkin",
+    "image": "assets/img/speaker_andrey-devyatkin.jpeg",
+    "slug": "andrey-devyatkin",
+    "company": "Praqma AB",
+    "companyUrl": "https://www.praqma.se",
+    "bio": "Andrey is an eager beaver who is passionate about software development and development processes automation. During years Andrey worked as a coach, software developer, scrum master, build and realise engineer, architect for continuous delivery infrastructure. Currently, Andrey is leading operations in Swedish branch of Praqma, a consultancy bureau specialized in continuous delivery and software development automation, open source tools development and support."
+  },
+  {
+    "name": "Björn Palmqvist",
+    "image": "assets/img/speaker_bjorn-palmqvist.jpeg",
+    "slug": "bjorn-palmqvist",
+    "company": "Aidium AB",
+    "companyUrl": "http://www.aidium.se/",
+    "bio": ""
+  },
+  {
+    "name": "Christina Skaskiw",
+    "image": "assets/img/speaker_christina-skaskiw.png",
+    "slug": "christina-skaskiw",
+    "company": "Acino AB",
+    "companyUrl": "http://www.acino.se/",
+    "bio": "Christina har jobbat som utvecklare, kravspecare och metodkonsult under sin 25-åriga karriär. Hennes kunskaper i utvecklingsmetodik grundlades i framtagandet av Rational Unified Process i mitten av 90-talet. Det första uppdraget med agila metoder genomförde hon redan 2003, även om det följdes av flera RUP-uppdrag innan de agila utvecklingsuppdragen fick övervikt. På fritiden driver hon AgilaUme, ett nätverk för agila metoder i Umeå."
+  },
+  {
+    "name": "Erik Adamsson",
+    "image": "assets/img/speaker_erik-adamsson.png",
+    "slug": "erik-adamsson",
+    "company": "ITS",
+    "companyUrl": "http://www.its.umu.se/",
+    "bio": "Jag har arbetat över 10 år inom IT-branschen både som konsult och anställd. Under min tid som konsult arbetade jag inom många olika organisationer och det var framför allt där jag fick möjlighet att arbeta i många olika sorters agila team. Mitt första agila projekt deltog jag i redan 2007. Idrott är ett intresse sedan barnsben. Jag har utövat lagidrott på elitnivå och har ett stort allmänt intresse av sport. På denna presentation kommer jag att dela med mig av tips och erfarenheter jag fått både från sport- och den agila världen. Sedan 2013 arbetar jag på ITS, Umeå universitet."
+  },
+  {
+    "name": "Jonas Andersson",
+    "image": "assets/img/speaker_jonas-andersson.jpg",
+    "slug": "jonas-andersson",
+    "company": "Umecon AB",
+    "companyUrl": "https://www.umecon.se",
+    "bio": "Jonas fick upp ögonen för agila värderingar 2008 och fick möjlighet att genomföra sitt första agila projekt 2009 som blev en succé. Sedan dess kallar han sig Agile Coding Architect och fortsätter att fascineras av agil kod, systemarkitektur, organisation, etc. Jonas driver tillsammans med Mattias Sällström @UmeJUG (umejug.blogspot.com) och föreläser om agil systemutveckling på Umeå Universitet."
+  },
+  {
+    "name": "Markus Örebrand",
+    "image": "assets/img/speaker_markus-orebrand.jpg",
+    "slug": "markus-orebrand",
+    "company": "Omegapoint AB",
+    "companyUrl": "https://www.omegapoint.se",
+    "bio": "TBA"
+  },
+  {
+    "name": "Mattias Sällström",
+    "image": "assets/img/speaker_mattias-sallstrom.png",
+    "slug": "mattias-sallstrom",
+    "company": "Omegapoint AB",
+    "companyUrl": "https://www.omegapoint.se",
+    "bio": "Jag har jobbat som utvecklare och konsult i snart 15 år, främst inom statlig verksamhet och i stora projekt som t.ex. antagningssystemet för universitet och högskola. I de lite större projekten får man möjligheten att studera hur gruppdynamik och processer förändras över tid. Sedan 2009 är jag co-driver för Umeå Java User Group och sedan fyra år tillbaka är jag konsult och konsultchef på Omegapoint Umeå."
+  },
+  {
+    "name": "Peter Byström",
+    "image": "assets/img/speaker_peter-bystrom2.png",
+    "slug": "peter-bystrom",
+    "company": "ITS",
+    "companyUrl": "http://www.its.umu.se/",
+    "bio": "Peter är en agil coach, scrummaster och kravanalytiker som med egna unika metoder jobbar nära verksamheten och slutanvändarna för att fånga upp rätt krav. Han jobbar iterativt med slutanvändarna i deras verkliga miljöer för att säkerställa att rätt funktionalitet utvecklas och att önskad effekt uppstår i verksamheten. Han jobbar mycket med att knyta utvecklingen nära verksamheten och får snabbt upp motivationen och effektiviteten i teamet. Med pedagogiska övningar och förklaringar visar han effektivt hur de agila rollerna passar in i organisationen på alla nivåer så att hela organisationen stödjer den agila utvecklingsprocessen."
+  },
+  {
+    "name": "Unn Swanström",
+    "image": "assets/img/speaker_unn-swanstrom.jpeg",
+    "slug": "unn-swanstrom",
+    "company": "Netlight AB",
+    "companyUrl": "http://www.netlight.se/",
+    "bio": ""
+  }
+]

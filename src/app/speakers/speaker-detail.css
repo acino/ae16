@@ -1,0 +1,38 @@
+.speaker-detail-wrapper {
+  margin: 0;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.speaker-name {
+  margin-bottom: 0;
+}
+
+.company-name {
+  margin-top: 0;
+  font-size: 2em;
+  margin-bottom: 12px;
+  display: inline-block;
+  color: #F26D21;
+}
+
+.avatar-wrapper {
+  text-align: center;
+}
+
+@media(min-width: 992px) {
+  .speaker-detail-wrapper {
+    text-align: left;
+  }
+
+  .avatar-wrapper {
+    text-align: right;
+  }
+}
+
+@media(min-width: 1080px) {
+  .speaker-detail-wrapper p {
+    width: 32vw;
+  }
+}

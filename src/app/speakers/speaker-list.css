@@ -1,0 +1,57 @@
+.avatar-wrapper {
+  text-align: center;
+  padding: 16px;
+
+  cursor: pointer;
+  color: #777;
+}
+
+.avatar-wrapper > div {
+  margin-top: 8px;
+}
+
+.avatar-wrapper:hover {
+  color: #111;
+}
+
+.general-info {
+  width: auto;
+  text-align: center;
+
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+@media(min-width: 375px) {
+    .general-info {
+      padding-left: 32px;
+    }
+}
+
+@media(min-width: 480px) {
+  .general-info {
+    padding-left: 28px;
+  }
+}
+
+@media(min-width: 768px) {
+  .general-info {
+    padding-left: 72px;
+    padding-right: 72px;
+
+    text-align: left;
+  }
+}
+
+
+@media(min-width: 990px) {
+  .general-info {
+    padding-left: 124px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .general-info {
+    padding-left: 80px;
+  }
+}

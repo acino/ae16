@@ -1,0 +1,27 @@
+.main-header {
+  padding: 24px 0;
+}
+
+.main-content {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+#non-footer {
+  position: relative;
+  min-height: 80vh;
+
+  box-shadow: 1px 0 1px #ccc;
+  z-index: 1337;
+}
+
+@media(min-width: 768px) {
+  .main-header {
+    padding: 72px 0;
+  }
+
+  .main-content {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}

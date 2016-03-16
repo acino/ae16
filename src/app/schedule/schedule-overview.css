@@ -1,0 +1,140 @@
+.sessions {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1em;
+
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sessions .header {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.sessions .header .room-name {
+  font-weight: normal;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.schedule-content .session {
+  display: block;
+  color: #FFFFFF;
+}
+
+.schedule-content div {
+  margin: 0;
+  padding: 0;
+}
+
+.schedule-content .schedule-content {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.schedule-content .session, .schedule-content time {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.schedule-content time {
+  display: inline-block;
+  width: 100%;
+}
+
+.schedule-content .session, .schedule-content time {
+  padding: 8px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.schedule-content .session-content {
+  margin-right: 0;
+}
+
+
+@media(min-width: 768px) {
+  .sessions {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media(max-width: 990px) {
+  .schedule-content time, .schedule-content .session.single {
+    border: 0;
+  }
+
+  .schedule-content .session:last-child {
+    margin-bottom: 16px;
+  }
+
+  .schedule-content .session-content {
+    margin-right: 32px;
+  }
+}
+
+@media(min-width: 991px) {
+  .sessions {
+    font-size: 0.93233em;
+  }
+
+  /* minutes * 2 = px */
+  .schedule-content .block15, .schedule-content .block15 time, .schedule-content .block15 .session {
+    min-height: 30px;
+  }
+
+  .schedule-content .block30, .schedule-content .block30 time, .schedule-content .block30 .session {
+    height: 60px;
+  }
+
+  .schedule-content .block45, .schedule-content .block45 time, .schedule-content .block45 .session {
+    height: 90px;
+  }
+
+  .schedule-content .block60, .schedule-content .block60 time, .schedule-content .block60 .session {
+    height: 120px;
+  }
+}
+
+/* Colors */
+
+.schedule-content .session {
+  transition: background 0.33s ease;
+}
+
+.schedule-content .admin > :first-child, .sessions .keynote > :first-child {
+  background: #00796B;
+}
+
+.schedule-content .admin .session, .schedule-content .keynote .session {
+  background: #009688;
+}
+
+.schedule-content .pause > :first-child {
+  background: #0288D1;
+}
+
+.schedule-content .pause .session {
+  background: #2196F3;
+}
+
+.schedule-content .talks > :first-child {
+  background: #512DA8;
+}
+
+.schedule-content .talks .session {
+  background: #673AB7;
+}
+
+.schedule-content > .discussion > :first-child {
+  background: #303F9F;
+}
+
+.schedule-content .discussion .session {
+  background: #3F51B5;
+}
+
+.schedule-content .session:not(.fika):not(.lunch):hover {
+  background: #FF5722 !important;
+  cursor: pointer;
+}

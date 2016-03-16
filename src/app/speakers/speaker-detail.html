@@ -1,0 +1,14 @@
+<div class="container">
+  <div *ngIf="!loading && hasSpeaker" class="speaker-detail-wrapper">
+    <div class="col-xs-12 col-sm-12 col-md-5 avatar-wrapper">
+      <img class="avatar" src="{{ speaker.image }}" alt="">
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-7">
+      <h1 class="speaker-name">{{ speaker.name }}</h1>
+      <a class="company-name" href="{{ speaker.companyUrl }}">{{ speaker.company }}</a>
+      <p>{{ speaker.bio }}</p>
+    </div>
+  </div>
+  <div *ngIf="!loading && !hasSpeaker">Unable to find a speaker called <strong>{{ query.slug }}</strong>.</div>
+  <div *ngIf="loading"><img src="/assets/img/md-preloader.gif" alt=""></div>
+</div>

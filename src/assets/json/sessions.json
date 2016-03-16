@@ -1,0 +1,139 @@
+{
+  "allman-information-om-dagen": {
+    "title": "Allmän information on dagen",
+    "speaker": null,
+    "category": "info",
+    "track": "forelasning",
+    "slug": "allman-information-om-dagen"
+  },
+  "keynote": {
+    "title": "Keynote",
+    "speaker": {
+      "name": "Unn Swanström",
+      "slug": "unn-swanstrom",
+      "image": "assets/img/speaker_unn-swanstrom.jpeg"
+    },
+    "category": "lecture",
+    "track": "forelasning",
+    "slug": "keynote"
+  },
+  "my-journey-to-mysterious-land-of-continuous-integration-and-continuous-delivery": {
+    "title": "My journey to mysterious land of Continuous Integration and Continuous Delivery",
+    "speaker": {
+      "name": "Andrey Devyatkin",
+      "slug": "andrey-devyatkin",
+      "image": "assets/img/speaker_andrey-devyatkin.jpeg"
+    },
+    "category": "lecture",
+    "track": "forelasning",
+    "slug": "my-journey-to-mysterious-land-of-continuous-integration-and-continuous-delivery"
+  },
+  "den-nya-vagen-agila-organisationers-nasta-stora-utmaningar": {
+    "title": "Den nya vägen: Agila organisationers nästa stora utmaningar!",
+    "speaker": {
+      "name": "Peter Byström",
+      "slug": "peter-bystrom",
+      "image": "assets/img/speaker_peter-bystrom2.png"
+    },
+    "category": "lecture",
+    "track": "50_50",
+    "slug": "den-nya-vagen-agila-organisationers-nasta-stora-utmaningar"
+  },
+  "testdriv-din-databas": {
+    "title": "Testdriv din databas",
+    "speaker": {
+      "name": "Jonas Andersson",
+      "slug": "jonas-andersson",
+      "image": "assets/img/speaker_jonas-andersson.jpg"
+    },
+    "category": "workshop",
+    "track": "workshop",
+    "slug": "testdriv-din-databas"
+  },
+  "ar-det-hogpresterande-teamet-en-utopi": {
+    "title": "Är det högpresterande teamet en utopi?",
+    "speaker": {
+      "name": "Mattias Sällström",
+      "slug": "mattias-sallstrom",
+      "image": "assets/img/speaker_mattias-sallstrom.png"
+    },
+    "category": "lecture",
+    "track": "forelasning",
+    "slug": "ar-det-hogpresterande-teamet-en-utopi"
+  },
+  "agilt-har-sport-och-lagidtrott-nagot-att-tillfora": {
+    "title": "Agilt – har sport och lagidrott något att tillföra?",
+    "speaker": {
+      "name": "Erik Adamsson",
+      "slug": "erik-adamsson",
+      "image": "assets/img/speaker_erik-adamsson.png"
+    },
+    "category": "lecture",
+    "track": "50_50",
+    "slug": "agilt-har-sport-och-lagidtrott-nagot-att-tillfora"
+  },
+  "open-space": {
+    "title": "Open space",
+    "speaker": null,
+    "category": "discussion",
+    "slug": "open-space"
+  },
+  "extreme-agile": {
+    "title": "Extreme agile",
+    "speaker": {
+      "name": "Alexander Sehlin",
+      "slug": "alexander-sehlin",
+      "image": "assets/img/speaker_alexander-sehlin.jpg"
+    },
+    "category": "lecture",
+    "track": "forelasning",
+    "slug": "extreme-agile"
+  },
+  "refactorisering-av-legacy-code": {
+    "title": "Refactorisering av Legacy code",
+    "speaker": {
+      "name": "Björn Palmqvist",
+      "slug": "bjorn-palmqvist",
+      "image": "assets/img/speaker_bjorn-palmqvist.jpeg"
+    },
+    "category": "workshop",
+    "track": "50_50",
+    "slug": "refactorisering-av-legacy-code"
+  },
+  "tre-ovningar-for-agila-projekt": {
+    "title": "Tre övningar för agila projekt",
+    "speaker": {
+      "name": "Peter Byström",
+      "slug": "peter-bystrom",
+      "image": "assets/img/speaker_peter-bystrom2.png"
+    },
+    "category": "workshop",
+    "track": "workshop",
+    "slug": "tre-ovningar-for-agila-projekt"
+  },
+  "checklistor": {
+    "title": "Checklistor",
+    "speaker": {
+      "name": "Christina Skaskiw",
+      "slug": "christina-skaskiw",
+      "image": "assets/img/speaker_christina-skaskiw.jpg"
+    },
+    "category": "lecture",
+    "track": "forelasning",
+    "slug": "checklistor"
+  },
+  "paneldiskussion": {
+    "title": "Paneldiskussion",
+    "speaker": null,
+    "category": "discussion",
+    "track": "forelasning",
+    "slug": "paneldiskussion"
+  },
+  "avslutning": {
+    "title": "Avslutning",
+    "speaker": null,
+    "category": "info",
+    "track": "forelasning",
+    "slug": "avslutning"
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "availableTracks": ["forelasning", "50_50", "workshop"],
+  "tracks": {
+    "forelasning": {
+      "title": "Föreläsningsspåret",
+      "location": "Stora rummet",
+      "icon": "record_voice_over"
+    },
+    "50_50": {
+      "title": "50/50-spåret",
+      "location": "Lilla rummet 1",
+      "icon": "swap_calls"
+    },
+    "workshop": {
+      "title": "Workshopspåret",
+      "location": "Lilla rummet 2",
+      "icon": "build"
+    }
+  },
+  "blocks": [
+    {
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "duration": 30,
+      "onlyOneSession": true,
+      "type": "pause",
+      "sessions": [
+        {
+          "title": "Registrering & frukost",
+          "speaker": null,
+          "category": "fika",
+          "track": "forelasning"
+        }
+      ]
+    },
+    {
+      "startTime": "08:30",
+      "endTime": "08:45",
+      "duration": 15,
+      "onlyOneSession": true,
+      "type": "admin",
+      "sessions": [
+        {
+          "title": "Allmän information on dagen",
+          "speaker": null,
+          "category": "info",
+          "track": "forelasning",
+          "slug": "allman-information-om-dagen"
+        }
+      ]
+    },
+    {
+      "startTime": "08:45",
+      "endTime": "09:25",
+      "duration": 45,
+      "onlyOneSession": true,
+      "type": "keynote",
+      "sessions": [
+        {
+          "title": "Keynote",
+          "speaker": "Unn Swanström",
+          "category": "lecture",
+          "track": "forelasning",
+          "slug": "keynote"
+        }
+      ]
+    },
+    {
+      "startTime": "09:30",
+      "endTime": "10:15",
+      "duration": 45,
+      "onlyOneSession": false,
+      "type": "talks",
+      "sessions": [
+        {
+          "title": "My journey to mysterious land of Continuous Integration and Continuous Delivery",
+          "speaker": "Andrey Devyatkin",
+          "category": "lecture",
+          "track": "forelasning",
+          "slug": "my-journey-to-mysterious-land-of-continuous-integration-and-continuous-delivery"
+        },
+        {
+          "title": "Den nya vägen: Agila organisationers nästa stora utmaningar!",
+          "speaker": "Peter Byström",
+          "category": "lecture",
+          "track": "50_50",
+          "slug": "den-nya-vagen-agila-organisationers-nasta-stora-utmaningar"
+        },
+        {
+          "title": "Testdriv din databas (del 1)",
+          "speaker": "Jonas Andersson",
+          "category": "workshop",
+          "track": "workshop",
+          "slug": "testdriv-din-databas"
+        }
+      ]
+    },
+    {
+      "startTime": "10:15",
+      "endTime": "10:45",
+      "duration": 30,
+      "onlyOneSession": true,
+      "type": "pause",
+      "sessions": [
+        {
+          "title": "Fika",
+          "speaker": null,
+          "category": "fika"
+        }
+      ]
+    },
+    {
+      "startTime": "10:45",
+      "endTime": "11:30",
+      "duration": 45,
+      "onlyOneSession": false,
+      "type": "talks",
+      "sessions": [
+        {
+          "title": "Är det högpresterande teamet en utopi?",
+          "speaker": "Mattias Sällström",
+          "category": "lecture",
+          "track": "forelasning",
+          "slug": "ar-det-hogpresterande-teamet-en-utopi"
+        },
+        {
+          "title": "Agilt – har sport och lagidrott något att tillföra?",
+          "speaker": "Erik Adamsson",
+          "category": "lecture",
+          "track": "50_50",
+          "slug": "agilt-har-sport-och-lagidtrott-nagot-att-tillfora"
+        },
+        {
+          "title": "Testdriv din databas (del 2)",
+          "speaker": "Jonas Andersson",
+          "category": "workshop",
+          "track": "workshop",
+          "slug": "testdriv-din-databas"
+        }
+      ]
+    },
+    {
+      "startTime": "11:30",
+      "endTime": "12:15",
+      "duration": 45,
+      "onlyOneSession": true,
+      "type": "discussion",
+      "sessions": [
+        {
+          "title": "Open space",
+          "speaker": null,
+          "category": "discussion",
+          "slug": "open-space"
+        }
+      ]
+    },
+    {
+      "startTime": "12:15",
+      "endTime": "13:15",
+      "duration": 60,
+      "onlyOneSession": true,
+      "type": "pause",
+      "sessions": [
+        {
+          "title": "Lunch",
+          "speaker": null,
+          "category": "lunch"
+        }
+      ]
+    },
+    {
+      "startTime": "13:15",
+      "endTime": "14:00",
+      "duration": 45,
+      "onlyOneSession": false,
+      "type": "talks",
+      "sessions": [
+        {
+          "title": "Extreme agile",
+          "speaker": "Alexander Sehlin",
+          "category": "lecture",
+          "track": "forelasning",
+          "slug": "extreme-agile"
+        },
+        {
+          "title": "Refactorisering av Legacy code (del 1)",
+          "speaker": "Björn Palmqvist",
+          "category": "workshop",
+          "track": "50_50",
+          "slug": "refactorisering-av-legacy-code"
+        },
+        {
+          "title": "Tre övningar för agila projekt (del 1)",
+          "speaker": "Peter Byström",
+          "category": "workshop",
+          "track": "workshop",
+          "slug": "tre-ovningar-for-agila-projekt"
+        }
+      ]
+    },
+    {
+      "startTime": "14:05",
+      "endTime": "14:50",
+      "duration": 45,
+      "onlyOneSession": false,
+      "type": "talks",
+      "sessions": [
+        {
+          "title": "Checklistor",
+          "speaker": "Christina Skaskiw",
+          "category": "lecture",
+          "track": "forelasning",
+          "slug": "checklistor"
+        },
+        {
+          "title": "Refactorisering av Legacy code (del 2)",
+          "speaker": "Björn Palmqvist",
+          "category": "workshop",
+          "track": "50_50",
+          "slug": "refactorisering-av-legacy-code"
+        },
+        {
+          "title": "Tre övningar för agila projekt (del 2)",
+          "speaker": "Peter Byström",
+          "category": "workshop",
+          "track": "workshop",
+          "slug": "tre-ovningar-for-agila-projekt"
+        }
+      ]
+    },
+    {
+      "startTime": "14:50",
+      "endTime": "15:20",
+      "duration": 30,
+      "onlyOneSession": true,
+      "type": "pause",
+      "sessions": [
+        {
+          "title": "Fika",
+          "speaker": null,
+          "category": "fika"
+        }
+      ]
+    },
+    {
+      "startTime": "15:20",
+      "endTime": "16:20",
+      "duration": 60,
+      "onlyOneSession": true,
+      "type": "discussion",
+      "sessions": [
+        {
+          "title": "Paneldiskussion",
+          "speaker": null,
+          "category": "discussion",
+          "track": "forelasning",
+          "slug": "paneldiskussion"
+        }
+      ]
+    },
+    {
+      "startTime": "16:20",
+      "endTime": "16:50",
+      "duration": 30,
+      "onlyOneSession": true,
+      "type": "admin",
+      "sessions": [
+        {
+          "title": "Avslutning",
+          "speaker": null,
+          "category": "info",
+          "track": "forelasning",
+          "slug": "avslutning"
+        }
+      ]
+    }
+
+  ]
+}
