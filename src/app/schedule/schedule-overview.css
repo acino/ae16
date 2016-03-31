@@ -64,7 +64,7 @@
     border: 0;
   }
 
-  .schedule-content .session:last-child {
+  .schedule-content .session-container {
     margin-bottom: 16px;
   }
 
@@ -98,7 +98,7 @@
 
 /* Colors */
 
-.schedule-content .session {
+.schedule-content .session-container {
   transition: background 0.24s ease;
 }
 
@@ -106,7 +106,7 @@
   background: #00796B;
 }
 
-.schedule-content .admin, .schedule-content .keynote {
+.schedule-content .admin .session-container, .schedule-content .keynote .session-container {
   background: #009688;
 }
 
@@ -114,7 +114,7 @@
   background: #0288D1;
 }
 
-.schedule-content .pause {
+.schedule-content .pause .session-container  {
   background: #2196F3;
 }
 
@@ -122,7 +122,7 @@
   background: #512DA8;
 }
 
-.schedule-content .talks {
+.schedule-content .talks .session-container {
   background: #673AB7;
 }
 
@@ -130,7 +130,7 @@
   background: #303F9F;
 }
 
-.schedule-content .discussion {
+.schedule-content .discussion .session-container {
   background: #3F51B5;
 }
 

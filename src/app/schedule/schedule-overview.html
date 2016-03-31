@@ -14,7 +14,7 @@
   <div class="schedule-content">
     <div *ngFor="#block of schedule.blocks" class="col-xs-12 col-md-12 {{ block.type + ' ' + 'block' + block.duration }}">
       <div class="col-xs-12 col-md-2"><time>{{ block.startTime + ' - ' + block.endTime }}</time></div>
-      <div class="col-xs-12 col-md-10">
+      <div class="col-xs-12 col-md-10 session-container">
         <article *ngFor="#session of block.sessions" (click)="onSessionClick(session.slug)" class="session {{ session.category }} {{ block.onlyOneSession ? 'col-md-12 single' : 'col-md-4' }}">
           <div class="session-content">
             <span>{{ session.title}}</span><br>
