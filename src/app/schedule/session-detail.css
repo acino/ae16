@@ -19,7 +19,15 @@ h1:first-child {
   display: inline-block;
 }
 
+.container {
+  text-align: center;
+}
+
 @media(min-width: 768px) {
+  .container {
+    text-align: left;
+  }
+  
   .avatar-wrapper {
     text-align: right;
     padding-bottom: 0;
