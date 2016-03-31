@@ -1,0 +1,18 @@
+.student-sponsorship-buttons > a {
+  clear: both;
+  float: left;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .student-sponsorship-buttons > :not(:first-child) {
+    margin-left: 8px;
+  }
+
+  .student-sponsorship-buttons > a {
+    display: block;
+    margin-top: 0;
+    clear: none;
+  }
+}
