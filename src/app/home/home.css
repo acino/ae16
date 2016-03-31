@@ -15,4 +15,7 @@
     margin-top: 0;
     clear: none;
   }
+  .container {
+    width: 750px;
+  }
 }

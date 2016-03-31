@@ -53,13 +53,17 @@
 
 
 @media(min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
   .sessions {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-@media(max-width: 990px) {
+@media(max-width: 991px) {
   .schedule-content time, .schedule-content .session.single {
     border: 0;
   }
@@ -73,7 +77,7 @@
   }
 }
 
-@media(min-width: 991px) {
+@media(min-width: 992px) {
   .sessions {
     font-size: 0.93233em;
   }
