@@ -1,12 +1,12 @@
 <div class="container">
   <div *ngIf="!loading && hasSession" class="session-detail-wrapper">
-    <div class="col-xs-12 col-sm-12 col-md-5 avatar-wrapper">
-      <img class="avatar" src="{{ session.speaker.image }}" alt=""><br>
-      <span class="speaker-name">{{ session.speaker.name }}</span>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-7">
+    <div class="col-xs-12 col-sm-8 col-md-8">
       <h1>{{ session.title }}</h1>
       <p>{{ session.description }}</p>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 avatar-wrapper">
+      <img class="avatar" src="{{ session.speaker.image }}" alt="">
+      <span class="speaker-name">{{ session.speaker.name }}</span>
     </div>
   </div>
   <div *ngIf="!loading && !hasSession">Unable to find a session called <strong>{{ query.slug }}</strong>.</div>
