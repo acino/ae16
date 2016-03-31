@@ -41,3 +41,13 @@ a {
 a:hover {
   color: #F26D21;
 }
+
+@media(max-width: 767px) {
+  h1, .h1 {
+    font-size: 2.3233em;
+  }
+
+  h2, .h2 {
+    font-size: 2em;
+  }
+}
