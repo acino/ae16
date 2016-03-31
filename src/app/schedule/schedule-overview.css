@@ -99,14 +99,14 @@
 /* Colors */
 
 .schedule-content .session {
-  transition: background 0.33s ease;
+  transition: background 0.24s ease;
 }
 
 .schedule-content .admin > :first-child, .sessions .keynote > :first-child {
   background: #00796B;
 }
 
-.schedule-content .admin .session, .schedule-content .keynote .session {
+.schedule-content .admin, .schedule-content .keynote {
   background: #009688;
 }
 
@@ -114,7 +114,7 @@
   background: #0288D1;
 }
 
-.schedule-content .pause .session {
+.schedule-content .pause {
   background: #2196F3;
 }
 
@@ -122,7 +122,7 @@
   background: #512DA8;
 }
 
-.schedule-content .talks .session {
+.schedule-content .talks {
   background: #673AB7;
 }
 
@@ -130,11 +130,11 @@
   background: #303F9F;
 }
 
-.schedule-content .discussion .session {
+.schedule-content .discussion {
   background: #3F51B5;
 }
 
 .schedule-content .session:not(.fika):not(.lunch):hover {
-  background: #FF5722 !important;
+  background: rgba(255, 255, 255, 0.2) !important;
   cursor: pointer;
 }
