@@ -8,9 +8,9 @@ body {
 }
 
 .avatar {
-  width: 240px;
-  height: 240px;
-  border-radius: 120px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
 }
 
 .no-padding {
@@ -49,5 +49,13 @@ a:hover {
 
   h2, .h2 {
     font-size: 2em;
+  }
+}
+
+@media(min-width: 480px) {
+  .avatar {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
   }
 }
