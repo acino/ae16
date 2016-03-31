@@ -11,7 +11,7 @@
 }
 
 .avatar-wrapper:hover {
-  color: #111;
+  color: inherit;
 }
 
 .general-info {
