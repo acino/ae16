@@ -8,6 +8,7 @@
   },
   "keynote": {
     "title": "Keynote",
+    "description": "",
     "speaker": {
       "name": "Unn Swanström",
       "slug": "unn-swanstrom",
@@ -19,6 +20,7 @@
   },
   "my-journey-to-mysterious-land-of-continuous-integration-and-continuous-delivery": {
     "title": "My journey to mysterious land of Continuous Integration and Continuous Delivery",
+    "description": "TBA",
     "speaker": {
       "name": "Andrey Devyatkin",
       "slug": "andrey-devyatkin",
@@ -30,6 +32,7 @@
   },
   "den-nya-vagen-agila-organisationers-nasta-stora-utmaningar": {
     "title": "Den nya vägen: Agila organisationers nästa stora utmaningar!",
+    "description": "De flesta organisationer och företag som utvecklar IT jobbar idag efter agila metoder för att öka effektiviteten och få bättre kvalitet. Det som samtidigt händer i många verksamheter är att kärnverksamheten och IT flyter ihop mer och mer då IT-system har blivit grundverktygen för att utföra det dagliga arbetet. Det här behöver vi som skapar IT-system förhålla oss till för att kunna skapa så stor nytta i verksamheten som möjligt och verkligen göra skillnad.",
     "speaker": {
       "name": "Peter Byström",
       "slug": "peter-bystrom",
@@ -41,6 +44,7 @@
   },
   "testdriv-din-databas": {
     "title": "Testdriv din databas",
+    "description": "Workshop där vi visar hur man testdriver fram databaskod i Java EE med hjälp av databasen H2. Implementationen består av två Repositorys, ett som använder JDBC och ett som använder JPA. Vi testdriver alltså både Java-klasserna och SQL/HQL.",
     "speaker": {
       "name": "Jonas Andersson",
       "slug": "jonas-andersson",
@@ -52,6 +56,7 @@
   },
   "ar-det-hogpresterande-teamet-en-utopi": {
     "title": "Är det högpresterande teamet en utopi?",
+    "description": "Team:et är väldigt centralt i det agila tänket. Mycket ansvar läggs på teamet och det ställs en hel del krav på det. Teamet ska vara cross-funktionellt och ska tillsammans med produktägare leverera rätt system. Hur sätter vi då samman ett team som fungerar bra tillsammans, med produktägare och verksamhet samtidigt som det kan prestera på hög nivå? Vilka faktorer är det som spelar in? I den här presentationen tänkte jag gå igenom några av dessa faktorer och ge tips på hinder att se upp med.",
     "speaker": {
       "name": "Mattias Sällström",
       "slug": "mattias-sallstrom",
@@ -63,6 +68,7 @@
   },
   "agilt-har-sport-och-lagidtrott-nagot-att-tillfora": {
     "title": "Agilt – har sport och lagidrott något att tillföra?",
+    "description": "Många IT-projekt som har använt sig av agil systemutveckling har skördat framgång de senaste åren. Agile är i sig inte en metod för systemutveckling utan handlar mer om en uppsättning värderingar, attityder och principer. Samarbete och de agila teamen spelar en central roll och är viktiga för att ett projekt ska kunna leverera fungerande programvara med hög kvalitet under lång tid. Inom sportens värld, och framför allt inom lagidrotter, har man sedan länge fokuserat just på att få team att samarbete och prestera maximalt. Vad finns det för likheter och olikheter mellan det agila arbetssättet och hur man jobbar inom lagidrotten? Finns det lärdomar från sportens värld som skulle kunna tillämpas på det agila arbetssättet? Inom idrottens värld använder man ofta även idrottspsykologi som ett hjälpmedel för att öka prestationen. Finns det tillfällen där idrottspsykologi skulle kunna förbättra det agila arbetssättet för IT-projekt?",
     "speaker": {
       "name": "Erik Adamsson",
       "slug": "erik-adamsson",
@@ -79,7 +85,8 @@
     "slug": "open-space"
   },
   "extreme-agile": {
-    "title": "Extreme agile",
+    "title": "Extrem agil transparens",
+    "description": "Extrem agil transparens - hur vi jobbar i gemensamma scrumteam mellan Sverige och Australien när vi bygger deras nya börs.",
     "speaker": {
       "name": "Alexander Sehlin",
       "slug": "alexander-sehlin",
@@ -91,6 +98,7 @@
   },
   "refactorisering-av-legacy-code": {
     "title": "Refactorisering av Legacy code",
+    "description": "Hur du får arvet under test för att sedan kunna bryta ner den i bättre beståndsdelar.",
     "speaker": {
       "name": "Björn Palmqvist",
       "slug": "bjorn-palmqvist",
@@ -102,6 +110,7 @@
   },
   "tre-ovningar-for-agila-projekt": {
     "title": "Tre övningar för agila projekt",
+    "description": "Prova på och lär dig tre övningar inom kommunikation, pågående arbete och självförbättrande team.",
     "speaker": {
       "name": "Peter Byström",
       "slug": "peter-bystrom",
@@ -112,7 +121,8 @@
     "slug": "tre-ovningar-for-agila-projekt"
   },
   "checklistor": {
-    "title": "Checklistor",
+    "title": "Implementera process med checklistor",
+    "description": "Tusentals timmar läggs på att beskriva processer, men hur många timmar läggs på att följa dem? Hur ofta skjuter man upp aktiviteter som dokumentation till efter release, dvs till tidens ände? Vore det inte bättre att lägga färre timmar på processbeskrivningar, och fler timmar på att följa dem? Detta “prat” handlar om erfarenheter från ett uppdrag inom Skatteverkets IT i Umeå, om hur en enkel checklista kan främja processefterlevnad.",
     "speaker": {
       "name": "Christina Skaskiw",
       "slug": "christina-skaskiw",
