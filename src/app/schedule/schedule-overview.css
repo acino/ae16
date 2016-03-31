@@ -1,4 +1,4 @@
-.sessions {
+.sessions .header, .sessions .schedule-content {
   color: rgba(255, 255, 255, 0.95);
   font-size: 1em;
 
@@ -11,6 +11,8 @@
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 16px;
+
+  padding-top: 32px;
 }
 
 .sessions .header .room-name {
@@ -80,6 +82,10 @@
 @media(min-width: 992px) {
   .sessions {
     font-size: 0.93233em;
+  }
+
+  .container {
+    width: 960px;
   }
 
   /* minutes * 2 = px */

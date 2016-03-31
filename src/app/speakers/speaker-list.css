@@ -14,13 +14,6 @@
   color: inherit;
 }
 
-.general-info {
-  width: auto;
-  text-align: center;
-
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
 
 @media(min-width: 768px) {
   .general-info {
@@ -30,7 +23,6 @@
     text-align: left;
   }
 }
-
 
 @media(min-width: 990px) {
   .general-info {

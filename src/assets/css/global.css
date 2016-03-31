@@ -42,6 +42,11 @@ a:hover {
   color: #F26D21;
 }
 
+
+.general-info {
+  text-align: center;
+}
+
 @media(max-width: 767px) {
   h1, .h1 {
     font-size: 2.3233em;
@@ -49,6 +54,17 @@ a:hover {
 
   h2, .h2 {
     font-size: 2em;
+  }
+}
+
+@media(min-width: 768px) {
+  .general-info {
+    text-align: left;
+
+    padding-left: 72px;
+    padding-right: 72px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 }
 
