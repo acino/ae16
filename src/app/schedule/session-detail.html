@@ -1,12 +1,14 @@
 <div class="container">
   <div *ngIf="!loading && hasSession" class="session-detail-wrapper">
-    <div class="col-xs-12 col-sm-8 col-md-8">
+    <div *ngIf="session.speaker" class="col-xs-12 col-sm-5 avatar-wrapper">
+      <a [routerLink]="['/Speakers/SpeakerDetail', {slug: session.speaker.slug}]" style="display: inline-block">
+        <img class="avatar" src="{{ session.speaker.image }}" alt="">
+        <span class="speaker-name">{{ session.speaker.name }}</span>
+      </a>
+    </div>
+    <div class="col-xs-12 col-sm-7">
       <h1>{{ session.title }}</h1>
       <p>{{ session.description }}</p>
-    </div>
-    <div class="col-xs-12 col-sm-4 col-md-4 avatar-wrapper">
-      <img class="avatar" src="{{ session.speaker.image }}" alt="">
-      <span class="speaker-name">{{ session.speaker.name }}</span>
     </div>
   </div>
   <div *ngIf="!loading && !hasSession">Unable to find a session called <strong>{{ query.slug }}</strong>.</div>
