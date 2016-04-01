@@ -1,7 +1,7 @@
-import {Component, OnInit} from "angular2/core";
-import {Session} from "./session";
-import {RouteParams} from "angular2/router";
-import {SessionService} from "./session.service";
+import {Component, OnInit} from 'angular2/core';
+import {Session} from './session';
+import {RouteParams} from 'angular2/router';
+import {SessionService} from './session.service';
 
 @Component({
   selector: 'session-detail',

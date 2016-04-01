@@ -1,8 +1,8 @@
 import {Component} from 'angular2/core';
-import {ScheduleService} from "./schedule.service";
-import {OnInit} from "angular2/core";
-import {Schedule} from "./schedule";
-import {Router} from "angular2/router";
+import {ScheduleService} from './schedule.service';
+import {OnInit} from 'angular2/core';
+import {Schedule} from './schedule';
+import {Router} from 'angular2/router';
 
 @Component({
   selector: 'schedule',

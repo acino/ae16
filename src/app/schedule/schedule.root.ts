@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
-import {ScheduleOverview} from "./schedule-overview";
-import {SessionDetail} from "./session-detail";
-import {RouteConfig} from "angular2/router";
+import {ScheduleOverview} from './schedule-overview';
+import {SessionDetail} from './session-detail';
+import {RouteConfig} from 'angular2/router';
 
 @RouteConfig([
   { path: '/', name: 'ScheduleOverview', component: ScheduleOverview, useAsDefault: true},

@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
-import {OnInit} from "angular2/core";
-import {SpeakerService} from "./speaker.service";
-import {Speaker} from "./speaker";
+import {OnInit} from 'angular2/core';
+import {SpeakerService} from './speaker.service';
+import {Speaker} from './speaker';
 @Component({
   selector: 'speaker-list',
   styles: [require('./speaker-list.css')],

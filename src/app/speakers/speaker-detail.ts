@@ -1,8 +1,8 @@
 import {Component} from 'angular2/core';
-import {RouteParams} from "angular2/router";
-import {SpeakerService} from "./speaker.service";
-import {OnInit} from "angular2/core";
-import {Speaker} from "./speaker";
+import {RouteParams} from 'angular2/router';
+import {SpeakerService} from './speaker.service';
+import {OnInit} from 'angular2/core';
+import {Speaker} from './speaker';
 
 @Component({
   selector: 'speaker-detail',

@@ -16,8 +16,8 @@ import {HTTP_PROVIDERS} from 'angular2/http';
  */
 import {App} from './app/app';
 import {RouterActive} from './app/directives/router-active';
-import {SpeakerService} from "./app/speakers/speaker.service";
-import {ScheduleService} from "./app/schedule/schedule.service";
+import {SpeakerService} from './app/speakers/speaker.service';
+import {ScheduleService} from './app/schedule/schedule.service';
 
 /*
  * Application Providers/Directives/Pipes
