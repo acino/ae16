@@ -24,7 +24,6 @@ export class SessionDetail implements OnInit {
 
   ngOnInit():any {
     this.sessionservice.getSession(this.query.slug).subscribe((session: Session) => {
-      console.log(session);
       this.session = session;
       this.loading = false;
       this.hasSession = this.session != undefined;
