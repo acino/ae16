@@ -21,6 +21,12 @@
   text-align: center;
 }
 
+@media(min-width: 768px) {
+  .speaker-name {
+    margin-top: 0;
+  }
+}
+
 @media(min-width: 992px) {
   .speaker-detail-wrapper {
     text-align: left;
