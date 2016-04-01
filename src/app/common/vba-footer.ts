@@ -8,7 +8,7 @@ import {Component} from 'angular2/core';
     <div class="container text-center" style="padding: 32px;">
       <div class="col-xs-12">
         <strong>Värdar</strong><br>
-        <img class="acino-logo" src="/assets/img/acinologo-black.png" alt="">
+        <a href="http://www.acino.se"><img class="acino-logo" src="/assets/img/acinologo-black.png" alt=""></a>
       </div>
       <div class="col-xs-12 col-sm-4">
         <strong>Kontakta oss</strong>
@@ -29,7 +29,7 @@ import {Component} from 'angular2/core';
       <div class="col-xs-12 col-sm-4">
         <strong>Länkar</strong>
         <ul>
-          <li><a href="https://www.acino.se">Acino</a></li>
+          <li><a href="http://www.acino.se">Acino</a></li>
           <li><a href="https://agilaume.wordpress.com/">AgilaUme</a></li>
           <li><a href="https://www.infotechumea.se">InfoTech Umeå</a></li>
         </ul>
