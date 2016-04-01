@@ -7,7 +7,7 @@ import {Component} from 'angular2/core';
   <div class="container-fluid footer-container">
     <div class="container text-center" style="padding: 32px;">
       <div class="col-xs-12">
-        <strong>Värdar</strong><br>
+        <strong>Arrangör</strong><br>
         <a href="http://www.acino.se"><img class="acino-logo" src="/assets/img/acinologo-black.png" alt=""></a>
       </div>
       <div class="col-xs-12 col-sm-4">

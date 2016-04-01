@@ -5,9 +5,9 @@ import {Component} from 'angular2/core';
   template: `
     <nav class="ae-navbar">
       <ul><!--
-        --><li><a [routerLink]="['Home']">Home</a></li><!--
-        --><li><a [routerLink]="['Schedule']">Schedule</a></li><!--
-        --><li><a [routerLink]="['Speakers']">Speakers</a></li><!--
+        --><li><a [routerLink]="['Home']">Start</a></li><!--
+        --><li><a [routerLink]="['Schedule']">Schema</a></li><!--
+        --><li><a [routerLink]="['Speakers']">Talare</a></li><!--
       --></ul>
     </nav>
   `,

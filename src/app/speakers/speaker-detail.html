@@ -9,6 +9,6 @@
       <p>{{ speaker.bio }}</p>
     </div>
   </div>
-  <div *ngIf="!loading && !hasSpeaker">Unable to find a speaker called <strong>{{ query.slug }}</strong>.</div>
+  <div *ngIf="!loading && !hasSpeaker">Hittade inte en talare vid namn <strong>{{ query.slug }}</strong>.</div>
   <div *ngIf="loading"><img src="/assets/img/md-preloader.gif" alt=""></div>
 </div>
