@@ -5,6 +5,10 @@
   display: inline-block;
 }
 
+.general-info {
+  text-align: left;
+}
+
 @media (min-width: 768px) {
   .student-sponsorship-buttons > :not(:first-child) {
     margin-left: 8px;
