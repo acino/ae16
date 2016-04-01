@@ -21,24 +21,16 @@
   text-align: center;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 992px) {
   .speaker-name {
     margin-top: 0;
   }
-}
 
-@media(min-width: 992px) {
   .speaker-detail-wrapper {
     text-align: left;
   }
 
   .avatar-wrapper {
     text-align: right;
-  }
-}
-
-@media(min-width: 1080px) {
-  .speaker-detail-wrapper p {
-    width: 32vw;
   }
 }
