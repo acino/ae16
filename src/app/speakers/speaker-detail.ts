@@ -10,11 +10,11 @@ import {Speaker} from './speaker';
   styles: [ require('./speaker-detail.css') ]
 })
 export class SpeakerDetail implements OnInit {
+  public speaker: Speaker = undefined;
+
   private hasSpeaker: boolean = false;
   private loading: boolean = false;
   private query = { slug: '' };
-
-  public speaker: Speaker = undefined;
 
   constructor(public routeParams: RouteParams, public speakerService: SpeakerService) {
     this.hasSpeaker = false;
@@ -22,11 +22,11 @@ export class SpeakerDetail implements OnInit {
     this.query.slug = routeParams.get('slug') || undefined;
   }
 
-  ngOnInit():any {
+  ngOnInit(): any {
     this.speakerService.getSpeaker(this.query.slug).then((speaker: Speaker) => {
       this.speaker = speaker;
       this.loading = false;
-      this.hasSpeaker = this.speaker != undefined;
+      this.hasSpeaker = this.speaker !== undefined;
     });
   }
 }

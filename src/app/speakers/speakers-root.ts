@@ -9,9 +9,7 @@ import {SpeakerDetail} from './speaker-detail';
 ])
 @Component({
   selector: 'speakers',
-  template: `
-    <router-outlet></router-outlet>
-  `
+  template: '<router-outlet></router-outlet>'
 })
 export class SpeakersRoot {
 

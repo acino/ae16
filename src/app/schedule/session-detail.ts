@@ -10,23 +10,23 @@ import {SessionService} from './session.service';
   providers: [ SessionService ]
 })
 export class SessionDetail implements OnInit {
+  public session: Session = undefined;
+
   private hasSession: boolean = false;
   private loading: boolean = false;
   private query = { slug: '' };
 
-  public session: Session = undefined;
-
-  constructor(public routeParams: RouteParams, public sessionservice: SessionService) {
+  constructor(public routeParams: RouteParams, public sessionService: SessionService) {
     this.hasSession = false;
     this.loading = true;
     this.query.slug = routeParams.get('slug') || undefined;
   }
 
-  ngOnInit():any {
-    this.sessionservice.getSession(this.query.slug).subscribe((session: Session) => {
+  ngOnInit(): any {
+    this.sessionService.getSession(this.query.slug).subscribe((session: Session) => {
       this.session = session;
       this.loading = false;
-      this.hasSession = this.session != undefined;
+      this.hasSession = this.session !== undefined;
     });
   }
 }
