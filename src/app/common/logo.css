@@ -17,7 +17,7 @@
 
 /* w = h * 7 */
 .ae16-logo {
-  background: url("/assets/img/logo-vb.png") no-repeat;
+  background: url("/assets/img/logo-vb.svg") no-repeat;
   width: 256px;
   height: 37px;
   background-size: 256px;
