@@ -1,14 +1,10 @@
 import {Injectable} from "angular2/core";
-
-import {Observable} from "rxjs/Observable";
-import 'rxjs/add/observable/of';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/operator/toPromise'
-
 import {Http} from "angular2/http";
-
+import {Observable} from "rxjs/Observable";
 import {Speaker} from "./speaker";
-import {Speakers} from "./speakers-root";
+import "rxjs/add/observable/of";
+import "rxjs/add/operator/do";
+import "rxjs/add/operator/toPromise";
 
 @Injectable()
 export class SpeakerService {
@@ -24,7 +20,7 @@ export class SpeakerService {
     });
   }
 
-  fetchSpeakers(): Observable<Speakers[]> {
+  fetchSpeakers(): Observable<Speaker[]> {
     return this.http.get('/assets/json/speakers.json').map(data => data.json());
   }
 
