@@ -10,5 +10,5 @@
     </div>
   </div>
   <div *ngIf="!loading && !hasSpeaker">Hittade inte en talare vid namn <strong>{{ query.slug }}</strong>.</div>
-  <div *ngIf="loading"><img src="/assets/img/md-preloader.gif" alt=""></div>
+  <vba-loading *ngIf="loading"></vba-loading>
 </div>

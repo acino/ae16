@@ -11,6 +11,6 @@
       <p>{{ session.description }}</p>
     </div>
   </div>
-  <div *ngIf="!loading && !hasSession">Unable to find a session called <strong>{{ query.slug }}</strong>.</div>
-  <div *ngIf="loading"><img src="/assets/img/md-preloader.gif" alt=""></div>
+  <div *ngIf="!loading && !hasSession">Hittade inte sessionen vid namn "<strong>{{ query.slug }}".</strong>.</div>
+  <vba-loading *ngIf="loading"></vba-loading>
 </div>

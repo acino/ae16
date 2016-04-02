@@ -3,7 +3,7 @@
     <h1>Talare</h1>
     <p>Vi har en riktigt intressant uppsättning talare till årets konferens, och ett större fokus har även lagts på att få till en mix av föreläsningar såväl som workshops.</p>
   </div>
-  <div *ngIf="speakers.length > 0">
+  <div *ngIf="!loading && hasSpeakers">
     <div class="col-xs-12 speaker-wrapper">
       <a *ngFor="#speaker of speakers" [routerLink]="['SpeakerDetail', { slug: speaker.slug }]" class="col-xs-12 col-sm-6 col-lg-4">
         <article class="avatar-wrapper">
@@ -13,5 +13,6 @@
       </a>
     </div>
   </div>
-  <div class="general-info" *ngIf="speakers.length === 0">Listan på talare kunde inte hittas.</div>
+  <div class="general-info" *ngIf="!loading && !hasSpeakers">Listan på talare kunde inte hittas.</div>
+  <vba-loading *ngIf="loading"></vba-loading>
 </div>

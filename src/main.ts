@@ -18,6 +18,8 @@ import {App} from './app/app';
 import {RouterActive} from './app/directives/router-active';
 import {SpeakerService} from './app/speakers/speaker.service';
 import {ScheduleService} from './app/schedule/schedule.service';
+import {VbaLoading} from './app/common/vba-loading';
+import {SessionService} from './app/schedule/session.service';
 
 /*
  * Application Providers/Directives/Pipes
@@ -29,12 +31,14 @@ const APPLICATION_PROVIDERS = [
   ...ROUTER_PROVIDERS,
   ...FORM_PROVIDERS,
   SpeakerService,
-  ScheduleService
+  ScheduleService,
+  SessionService
 ];
 
 // application_directives: directives that are global through out the application
 const APPLICATION_DIRECTIVES = [
   ...ROUTER_DIRECTIVES,
+  VbaLoading,
   RouterActive
 ];
 

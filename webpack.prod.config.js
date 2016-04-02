@@ -164,6 +164,7 @@ module.exports = {
           'App',
           'VbaLogo',
           'Navbar',
+          'VbaLoading',
           'VbaFooter',
           'Home',
           'ScheduleOverview',

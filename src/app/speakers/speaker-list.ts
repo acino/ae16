@@ -8,12 +8,21 @@ import {Speaker} from './speaker';
   template: require('./speaker-list.html')
 })
 export class SpeakerList implements OnInit {
+  public speakers: Speaker[] = [];
+
+  private hasSpeakers: boolean = false;
+  private loading: boolean = false;
+
   constructor(public speakerService: SpeakerService) {}
 
-  private speakers: Speaker[] = [];
-
   ngOnInit() {
-    this.speakerService.getSpeakers().then((speakers: Speaker[]) => this.speakers = speakers);
+    this.loading = true;
+    this.speakerService.getSpeakers().then((speakers: Speaker[]) => {
+      this.speakers = speakers;
+
+      this.hasSpeakers = speakers.length > 0;
+      this.loading = false;
+    });
   }
 
 }
