@@ -24,6 +24,11 @@ export class ScheduleOverview implements OnInit {
       this.schedule = data;
       this.hasSchedule = this.schedule && this.schedule.hasOwnProperty('blocks');
       this.loading = false;
+    },
+    (ignored: Error) => {
+      this.schedule = undefined;
+      this.hasSchedule = false;
+      this.loading = false;
     });
   }
 

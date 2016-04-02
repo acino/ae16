@@ -19,10 +19,13 @@ export class SpeakerList implements OnInit {
     this.loading = true;
     this.speakerService.getSpeakers().then((speakers: Speaker[]) => {
       this.speakers = speakers;
-
       this.hasSpeakers = speakers.length > 0;
+      this.loading = false;
+    },
+    (ignored: Error) => {
+      this.speakers = [];
+      this.hasSpeakers = false;
       this.loading = false;
     });
   }
-
 }

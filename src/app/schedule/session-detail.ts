@@ -27,6 +27,11 @@ export class SessionDetail implements OnInit {
       this.session = session;
       this.loading = false;
       this.hasSession = this.session !== undefined;
+    },
+    (ignored: Error) => {
+      this.session = undefined;
+      this.hasSession = false;
+      this.loading = false;
     });
   }
 }

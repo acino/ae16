@@ -27,6 +27,11 @@ export class SpeakerDetail implements OnInit {
       this.speaker = speaker;
       this.loading = false;
       this.hasSpeaker = this.speaker !== undefined;
+    },
+    (ignored: Error) => {
+      this.speaker = undefined;
+      this.hasSpeaker = false;
+      this.loading = false;
     });
   }
 }
