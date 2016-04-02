@@ -36,7 +36,7 @@
     "speaker": {
       "name": "Peter Byström",
       "slug": "peter-bystrom",
-      "image": "assets/img/speaker_peter-bystrom2.png"
+      "image": "assets/img/speaker_peter-bystrom.png"
     },
     "category": "lecture",
     "track": "50_50",
@@ -114,7 +114,7 @@
     "speaker": {
       "name": "Peter Byström",
       "slug": "peter-bystrom",
-      "image": "assets/img/speaker_peter-bystrom2.png"
+      "image": "assets/img/speaker_peter-bystrom.png"
     },
     "category": "workshop",
     "track": "workshop",
