@@ -4,7 +4,8 @@
     "speaker": null,
     "category": "info",
     "track": "forelasning",
-    "slug": "allman-information-om-dagen"
+    "slug": "allman-information-om-dagen",
+    "description": "Allmän information om dagen, hålltider och annan relevant information."
   },
   "keynote": {
     "title": "Keynote",
@@ -126,7 +127,7 @@
     "speaker": {
       "name": "Christina Skaskiw",
       "slug": "christina-skaskiw",
-      "image": "assets/img/speaker_christina-skaskiw.jpg"
+      "image": "assets/img/speaker_christina-skaskiw.png"
     },
     "category": "lecture",
     "track": "forelasning",
@@ -134,6 +135,7 @@
   },
   "paneldiskussion": {
     "title": "Paneldiskussion",
+    "description": "TBA",
     "speaker": null,
     "category": "discussion",
     "track": "forelasning",
@@ -141,6 +143,7 @@
   },
   "avslutning": {
     "title": "Avslutning",
+    "description": "Vi avslutar dagen med en kort summering av vad vi sett, samt övrig information som kan vara bra för er att känna till",
     "speaker": null,
     "category": "info",
     "track": "forelasning",
