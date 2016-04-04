@@ -73,11 +73,11 @@
       "type": "talks",
       "sessions": [
         {
-          "title": "My journey to mysterious land of Continuous Integration and Continuous Delivery",
-          "speaker": "Andrey Devyatkin",
+          "title": "Säkerhet i en devops-kultur",
+          "speaker": "Markus Örebrand",
           "category": "lecture",
           "track": "forelasning",
-          "slug": "my-journey-to-mysterious-land-of-continuous-integration-and-continuous-delivery"
+          "slug": "sakerhet-i-en-devopskultur"
         },
         {
           "title": "Den nya vägen: Agila organisationers nästa stora utmaningar!",

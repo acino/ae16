@@ -19,17 +19,17 @@
     "track": "forelasning",
     "slug": "keynote"
   },
-  "my-journey-to-mysterious-land-of-continuous-integration-and-continuous-delivery": {
-    "title": "My journey to mysterious land of Continuous Integration and Continuous Delivery",
-    "description": "TBA",
+  "sakerhet-i-en-devopskultur": {
+    "title": "Säkerhet i en devops-kultur",
+    "description": "Samtidigt som intresset för kontinuerliga leveranser ökar och de värden som omsätts i de system vi utvecklar blir större, utsätts systemen i ökande omfattning för attacker från individer och organisationer.\nSäkerhet upprätthålls traditionellt av en liten skara experter, men punktinsatser och granskningar cementerar ett vattenfalligt arbetssätt och avskräcker utvecklare från att intressera sig.\nHur kan vi bygga system med hög nivå av säkerhet samtidigt som vi håller värdeströmmen öppen genom täta releaser? Hur kan säkerhetsdisciplinen passa in i det lättrörliga teamet?\nMed denna presentation kommer jag att förslå tekniker och aktiviteter som hjälper det korsfunktionella teamet att bygga system som är robusta mot angrepp, definiera affärsnyttan i ett säkert system samt främja samarbetet med ett fristående säkerhetsteam.",
     "speaker": {
-      "name": "Andrey Devyatkin",
-      "slug": "andrey-devyatkin",
-      "image": "assets/img/speaker_andrey-devyatkin.jpeg"
+      "name": "Markus Örebrand",
+      "slug": "markus-orebrand",
+      "image": "assets/img/speaker_markus-orebrand.jpg"
     },
     "category": "lecture",
     "track": "forelasning",
-    "slug": "my-journey-to-mysterious-land-of-continuous-integration-and-continuous-delivery"
+    "slug": "sakerhet-i-en-devopskultur"
   },
   "den-nya-vagen-agila-organisationers-nasta-stora-utmaningar": {
     "title": "Den nya vägen: Agila organisationers nästa stora utmaningar!",
