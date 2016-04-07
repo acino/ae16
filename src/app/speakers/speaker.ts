@@ -1,3 +1,4 @@
+import {SocialMediaAccount} from './social-media-account';
 export interface Speaker {
   name: string;
   slug: string;
@@ -5,4 +6,5 @@ export interface Speaker {
   companyUrl: string;
   bio: string;
   talks: string[];
+  social: SocialMediaAccount[];
 }

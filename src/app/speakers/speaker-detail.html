@@ -7,6 +7,11 @@
       <h1 class="speaker-name">{{ speaker.name }}</h1>
       <a class="company-name" href="{{ speaker.companyUrl }}">{{ speaker.company }}</a>
       <p>{{ speaker.bio }}</p>
+      <div class="col-xs-12 no-padding social-logos" *ngIf="speaker.social">
+        <a href="{{ social.url }}" *ngFor="#social of speaker.social">
+          <img src="/assets/icon/social/{{ social.type }}.png" class="social-logo" alt="{{ social.type }}">
+        </a>
+      </div>
     </div>
   </div>
   <div *ngIf="!loading && !hasSpeaker">Tyvärr kunde vi inte hitta talaren med nyckeln "<strong>{{ query.slug }}</strong>".</div>

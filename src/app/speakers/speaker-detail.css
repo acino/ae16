@@ -1,6 +1,7 @@
 .speaker-detail-wrapper {
   margin: 0;
   text-align: center;
+
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -19,6 +20,20 @@
 
 .avatar-wrapper {
   text-align: center;
+}
+
+.social-logos {
+  margin-top: 16px;
+}
+
+.social-logos .social-logo {
+  width: 64px;
+  height: 64px;
+  margin-right: 8px;
+}
+
+.social-logos :last-child .social-logo {
+  margin-right: 0;
 }
 
 @media(min-width: 992px) {

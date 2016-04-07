@@ -5,7 +5,24 @@
     "slug": "alexander-sehlin",
     "company": "Cinnober Financial Technology",
     "companyUrl": "https://www.cinnober.se",
-    "bio": "Alexander works at Cinnober Financial Technology, a company that provides solutions and services to leading trading and clearing venues, including exchanges, clearinghouses, banks and brokers. Cinnober's solutions are largely based on the TRADExpress™ Platform, incorporating everything needed for mission-critical solutions in terms of performance, robustness and flexibility. The portfolio of offerings includes price discovery and matching, real-time risk management, clearing and settlement, index calculation, data distribution and surveillance. Cinnober's customers include ASX, JPX, BM&FBOVESPA, Deutsche Börse, Dubai Gold & Commodities Exchange, Eurex, Euronext, Johannesburg Stock Exchange, London Metal Exchange, LME Clear and Stock Exchange of Thailand."
+    "bio": "Alexander works at Cinnober Financial Technology, a company that provides solutions and services to leading trading and clearing venues, including exchanges, clearinghouses, banks and brokers. Cinnober's solutions are largely based on the TRADExpress™ Platform, incorporating everything needed for mission-critical solutions in terms of performance, robustness and flexibility. The portfolio of offerings includes price discovery and matching, real-time risk management, clearing and settlement, index calculation, data distribution and surveillance. Cinnober's customers include ASX, JPX, BM&FBOVESPA, Deutsche Börse, Dubai Gold & Commodities Exchange, Eurex, Euronext, Johannesburg Stock Exchange, London Metal Exchange, LME Clear and Stock Exchange of Thailand.",
+    "social": [
+      {
+        "type": "facebook",
+        "url": "https://www.facebook.com/CinnoberFinancialTechnology/",
+        "title": "CinnoberFinancialTechnology"
+      },
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/cinnober",
+        "title": "@cinnober"
+      },
+      {
+        "type": "instagram",
+        "url": "https://www.instagram.com/cinnober_ft/",
+        "title": "cinnober_ft"
+      }
+    ]
   },
   {
     "name": "Björn Palmqvist",
@@ -21,7 +38,18 @@
     "slug": "christina-skaskiw",
     "company": "Acino AB",
     "companyUrl": "http://www.acino.se/",
-    "bio": "Christina har jobbat som utvecklare, kravspecare och metodkonsult under sin 25-åriga karriär. Hennes kunskaper i utvecklingsmetodik grundlades i framtagandet av Rational Unified Process i mitten av 90-talet. Det första uppdraget med agila metoder genomförde hon redan 2003, även om det följdes av flera RUP-uppdrag innan de agila utvecklingsuppdragen fick övervikt. På fritiden driver hon AgilaUme, ett nätverk för agila metoder i Umeå."
+    "bio": "Christina har jobbat som utvecklare, kravspecare och metodkonsult under sin 25-åriga karriär. Hennes kunskaper i utvecklingsmetodik grundlades i framtagandet av Rational Unified Process i mitten av 90-talet. Det första uppdraget med agila metoder genomförde hon redan 2003, även om det följdes av flera RUP-uppdrag innan de agila utvecklingsuppdragen fick övervikt. På fritiden driver hon AgilaUme, ett nätverk för agila metoder i Umeå.",
+    "social": [
+      {
+        "type": "web",
+        "url": "agilaume.wordpress.com"
+      },
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/agilaume",
+        "title": "@agilaume"
+      }
+    ]
   },
   {
     "name": "Erik Adamsson",
@@ -37,7 +65,14 @@
     "slug": "jonas-andersson",
     "company": "Umecon AB",
     "companyUrl": "https://www.umecon.se",
-    "bio": "Jonas fick upp ögonen för agila värderingar 2008 och fick möjlighet att genomföra sitt första agila projekt 2009 som blev en succé. Sedan dess kallar han sig Agile Coding Architect och fortsätter att fascineras av agil kod, systemarkitektur, organisation, etc. Jonas driver tillsammans med Mattias Sällström @UmeJUG (umejug.blogspot.com) och föreläser om agil systemutveckling på Umeå Universitet."
+    "bio": "Jonas fick upp ögonen för agila värderingar 2008 och fick möjlighet att genomföra sitt första agila projekt 2009 som blev en succé. Sedan dess kallar han sig Agile Coding Architect och fortsätter att fascineras av agil kod, systemarkitektur, organisation, etc. Jonas driver tillsammans med Mattias Sällström @UmeJUG (umejug.blogspot.com) och föreläser om agil systemutveckling på Umeå Universitet.",
+    "social": [
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/tradjonas",
+        "title": "@tradjonas"
+      }
+    ]
   },
   {
     "name": "Markus Örebrand",
@@ -45,7 +80,14 @@
     "slug": "markus-orebrand",
     "company": "Omegapoint AB",
     "companyUrl": "https://www.omegapoint.se",
-    "bio": "Markus Örebrand är mjukvaruutvecklare hos konsultbolaget Omegapoint och arrangerar säkerhetsnätverket OWASP North Sweden."
+    "bio": "Markus Örebrand är mjukvaruutvecklare hos konsultbolaget Omegapoint och arrangerar säkerhetsnätverket OWASP North Sweden.",
+    "social": [
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/OrebrandSwe",
+        "title": "@OrebrandSwe"
+      }
+    ]
   },
   {
     "name": "Mattias Sällström",
