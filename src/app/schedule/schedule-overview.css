@@ -101,6 +101,10 @@
     height: 90px;
   }
 
+  .schedule-content .block50, .schedule-content .block50 time, .schedule-content .block50 .session {
+    height: 100px;
+  }
+
   .schedule-content .block60, .schedule-content .block60 time, .schedule-content .block60 .session {
     height: 120px;
   }
