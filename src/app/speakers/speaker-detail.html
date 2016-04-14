@@ -6,7 +6,7 @@
     <div class="col-xs-12 col-sm-12 col-md-7">
       <h1 class="speaker-name">{{ speaker.name }}</h1>
       <a class="company-name" href="{{ speaker.companyUrl }}">{{ speaker.company }}</a>
-      <p>{{ speaker.bio }}</p>
+      <p style="white-space: pre-line">{{ speaker.bio }}</p>
       <div class="col-xs-12 no-padding social-logos" *ngIf="speaker.social">
         <a href="{{ social.url }}" *ngFor="#social of speaker.social">
           <img src="/assets/icon/social/{{ social.type }}.png" class="social-logo" alt="{{ social.type }}">
