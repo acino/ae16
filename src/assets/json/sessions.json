@@ -53,7 +53,8 @@
     },
     "category": "workshop",
     "track": "workshop",
-    "slug": "testdriv-din-databas"
+    "slug": "testdriv-din-databas",
+    "requiresComputer": true
   },
   "ar-det-hogpresterande-teamet-en-utopi": {
     "title": "Är det högpresterande teamet en utopi?",
@@ -107,7 +108,8 @@
     },
     "category": "workshop",
     "track": "50_50",
-    "slug": "refactorisering-av-legacy-code"
+    "slug": "refactorisering-av-legacy-code",
+    "requiresComputer": true
   },
   "tre-ovningar-for-agila-projekt": {
     "title": "Tre övningar för agila projekt",

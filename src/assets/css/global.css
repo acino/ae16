@@ -76,6 +76,12 @@ a:hover {
   text-align: center;
 }
 
+.computer-required {
+  font-weight: bold;
+  color: #F44336;
+  padding-top: 16px;
+}
+
 /* Courtesy of http://stackoverflow.com/a/21320622/860212 */
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {

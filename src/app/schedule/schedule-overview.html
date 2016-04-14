@@ -22,7 +22,7 @@
         <div class="col-xs-12 col-md-10 session-container">
           <article *ngFor="#session of block.sessions" (click)="onSessionClick(session.slug)" class="session {{ session.category }} {{ block.onlyOneSession ? 'col-md-12 single' : 'col-md-4' }}">
             <div class="session-content">
-              <span>{{ session.title}}</span><br>
+              <span>{{ session.title }}{{ session.requiresComputer? '*' : '' }}</span><br>
               <em *ngIf="session.speaker">{{ session.speaker }}</em>
             </div>
             <i class="material-icons hidden-md hidden-lg" style="color: white; opacity: 0.9; position: absolute; right: 8px; top: 50%; transform: translateY(-50%);" *ngIf="session.track">{{ schedule.tracks[session.track].icon }}</i>
@@ -30,6 +30,7 @@
         </div>
       </div>
     </div>
+    <div class="computer-required">* En dator krävs för denna session</div>
   </div>
   <div class="general-info" *ngIf="!loading && !hasSchedule">Schemat kunde dessvärre inte hittas.</div>
   <vba-loading *ngIf="loading"></vba-loading>

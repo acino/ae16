@@ -105,7 +105,8 @@
           "speaker": "Jonas Andersson",
           "category": "workshop",
           "track": "workshop",
-          "slug": "testdriv-din-databas"
+          "slug": "testdriv-din-databas",
+          "requiresComputer": true
         }
       ]
     },
@@ -135,7 +136,8 @@
           "speaker": "Jonas Andersson",
           "category": "workshop",
           "track": "workshop",
-          "slug": "testdriv-din-databas"
+          "slug": "testdriv-din-databas",
+          "requiresComputer": true
         }
       ]
     },
@@ -187,7 +189,8 @@
           "speaker": "Björn Palmqvist",
           "category": "workshop",
           "track": "50_50",
-          "slug": "refactorisering-av-legacy-code"
+          "slug": "refactorisering-av-legacy-code",
+          "requiresComputer": true
         },
         {
           "title": "Tre övningar för agila projekt (del 1)",
@@ -217,7 +220,8 @@
           "speaker": "Björn Palmqvist",
           "category": "workshop",
           "track": "50_50",
-          "slug": "refactorisering-av-legacy-code"
+          "slug": "refactorisering-av-legacy-code",
+          "requiresComputer": true
         },
         {
           "title": "Tre övningar för agila projekt (del 2)",
