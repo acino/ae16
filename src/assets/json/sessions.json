@@ -21,7 +21,7 @@
   },
   "sakerhet-i-en-devopskultur": {
     "title": "Säkerhet i en devops-kultur",
-    "description": "Samtidigt som intresset för kontinuerliga leveranser ökar och de värden som omsätts i de system vi utvecklar blir större, utsätts systemen i ökande omfattning för attacker från individer och organisationer.\nSäkerhet upprätthålls traditionellt av en liten skara experter, men punktinsatser och granskningar cementerar ett vattenfalligt arbetssätt och avskräcker utvecklare från att intressera sig.\nHur kan vi bygga system med hög nivå av säkerhet samtidigt som vi håller värdeströmmen öppen genom täta releaser? Hur kan säkerhetsdisciplinen passa in i det lättrörliga teamet?\nMed denna presentation kommer jag att förslå tekniker och aktiviteter som hjälper det korsfunktionella teamet att bygga system som är robusta mot angrepp, definiera affärsnyttan i ett säkert system samt främja samarbetet med ett fristående säkerhetsteam.",
+    "description": "Samtidigt som intresset för kontinuerliga leveranser ökar och de värden som omsätts i de system vi utvecklar blir större, utsätts systemen i ökande omfattning för attacker från individer och organisationer.\n\nSäkerhet upprätthålls traditionellt av en liten skara experter, men punktinsatser och granskningar cementerar ett vattenfalligt arbetssätt och avskräcker utvecklare från att intressera sig.\n\nHur kan vi bygga system med hög nivå av säkerhet samtidigt som vi håller värdeströmmen öppen genom täta releaser? Hur kan säkerhetsdisciplinen passa in i det lättrörliga teamet?\n\nMed denna presentation kommer jag att förslå tekniker och aktiviteter som hjälper det korsfunktionella teamet att bygga system som är robusta mot angrepp, definiera affärsnyttan i ett säkert system samt främja samarbetet med ett fristående säkerhetsteam.",
     "speaker": {
       "name": "Markus Örebrand",
       "slug": "markus-orebrand",
@@ -99,7 +99,7 @@
   },
   "refactorisering-av-legacy-code": {
     "title": "Refactorisering av Legacy code",
-    "description": "Hur du får arvet under test för att sedan kunna bryta ner den i bättre beståndsdelar.",
+    "description": "Hic Svnt Dracones!\n\nHur tämjs bestarna som lurar i koden? Hur fjättrars dessa i sina lyor så att vi åter igen kan ströva fritt över våra klasser? Sådana heroiska tekniker kommer vi att diskutera och öva på under denna workshop. Förhoppningsvis kommer du ett steg närmare att vara hjälten i ert team.\n\nVi kommer att använda java, men dessa tekniker är översättningsbara till t.ex. C# eller javascript.",
     "speaker": {
       "name": "Björn Palmqvist",
       "slug": "bjorn-palmqvist",
