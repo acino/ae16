@@ -20,6 +20,7 @@ import {SpeakerService} from './app/speakers/speaker.service';
 import {ScheduleService} from './app/schedule/schedule.service';
 import {VbaLoading} from './app/common/vba-loading';
 import {SessionService} from './app/schedule/session.service';
+import {LinkifyPipe} from './app/common/linkify.pipe';
 
 /*
  * Application Providers/Directives/Pipes
@@ -66,7 +67,7 @@ export function main() {
   return browser.bootstrap(App, [
     ...APPLICATION_PROVIDERS,
     ngCore.provide(ngCore.PLATFORM_DIRECTIVES, {useValue: APPLICATION_DIRECTIVES, multi: true}),
-    ngCore.provide(ngCore.PLATFORM_PIPES, {useValue: APPLICATION_PIPES, multi: true})
+    ngCore.provide(ngCore.PLATFORM_PIPES, {useValue: [...APPLICATION_PIPES, LinkifyPipe], multi: true})
   ])
   .catch(err => console.error(err));
 }
