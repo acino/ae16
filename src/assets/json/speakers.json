@@ -65,7 +65,7 @@
     "slug": "jonas-andersson",
     "company": "Umecon AB",
     "companyUrl": "https://www.umecon.se",
-    "bio": "Jonas fick upp ögonen för agila värderingar 2008 och fick möjlighet att genomföra sitt första agila projekt 2009 som blev en succé. Sedan dess kallar han sig Agile Coding Architect och fortsätter att fascineras av agil kod, systemarkitektur, organisation, etc. Jonas driver tillsammans med Mattias Sällström @UmeJUG (umejug.blogspot.com) och föreläser om agil systemutveckling på Umeå Universitet.",
+    "bio": "Jonas fick upp ögonen för agila värderingar 2008 och fick möjlighet att genomföra sitt första agila projekt 2009 som blev en succé. Sedan dess kallar han sig Agile Coding Architect och fortsätter att fascineras av agil kod, systemarkitektur, organisation, etc. Jonas driver tillsammans med Mattias Sällström @UmeJUG (https://umejug.blogspot.com) och föreläser om agil systemutveckling på Umeå Universitet.",
     "social": [
       {
         "type": "twitter",
@@ -111,6 +111,18 @@
     "slug": "unn-swanstrom",
     "company": "Netlight AB",
     "companyUrl": "http://www.netlight.se/",
-    "bio": "N/A"
+    "bio": "Unn är specialist på att skapa användarupplevelser som gör människors liv lite mindre irriterande. Hon har varit en del av User Experience teamen på Expressen, Aftonbladet och driver nu ett internationellt innovationsprojekt på resebolaget Ving. Hon är en av Sveriges mest framträdande experter på personaliserade användarupplevelser, arrangör av The Code Pub (http://www.meetup.com/The-Code-Pub-Stockholm/) , Årets IT-kvinna 2015 (https://infotechumea.se/nyheter/hon-ar-arets-it-kvinna), feminist, föreläsare och peppad återfallsryttare.\n\nPå Agile Exchange kommer hon dela med sig av metoder och tankesätt som gör det möjligt att vara agil ända ut i fingerspetsarna.",
+    "social": [
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/unnderbar",
+        "title": "@unnderbar"
+      },
+      {
+        "type": "instagram",
+        "url": "https://instagram.com/unnderbar",
+        "title": "unnderbar"
+      }
+    ]
   }
 ]
