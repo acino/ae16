@@ -30,7 +30,18 @@
     "slug": "bjorn-palmqvist",
     "company": "Aidium AB",
     "companyUrl": "http://www.aidium.se/",
-    "bio": "Björn brinner för agil utveckling och försöker alltid finna bättre sätt att göra saker på. Han jobbar mycket med hantverksmässighet (craftsmanship) och metoder som bidrar till bättre och mer underhållsbar programvara. Björn jobbar till vardags som frilanskonsult i egen regi."
+    "bio": "Björn brinner för agil utveckling och försöker alltid finna bättre sätt att göra saker på. Han jobbar mycket med hantverksmässighet (craftsmanship) och metoder som bidrar till bättre och mer underhållsbar programvara. Björn jobbar till vardags som frilanskonsult i egen regi.",
+    "social": [
+      {
+        "type": "web",
+        "url": "http://aidium.se/blog/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/bjornpalmqvist",
+        "title": "@bjornpalmqvist"
+      }
+    ]
   },
   {
     "name": "Christina Skaskiw",
@@ -95,7 +106,14 @@
     "slug": "mattias-sallstrom",
     "company": "Omegapoint AB",
     "companyUrl": "https://www.omegapoint.se",
-    "bio": "Jag har jobbat som utvecklare och konsult i snart 15 år, främst inom statlig verksamhet och i stora projekt som t.ex. antagningssystemet för universitet och högskola. I de lite större projekten får man möjligheten att studera hur gruppdynamik och processer förändras över tid. Sedan 2009 är jag co-driver för Umeå Java User Group och sedan fyra år tillbaka är jag konsult och konsultchef på Omegapoint Umeå."
+    "bio": "Jag har jobbat som utvecklare och konsult i snart 15 år, främst inom statlig verksamhet och i stora projekt som t.ex. antagningssystemet för universitet och högskola. I de lite större projekten får man möjligheten att studera hur gruppdynamik och processer förändras över tid. Sedan 2009 är jag co-driver för Umeå Java User Group och sedan fyra år tillbaka är jag konsult och konsultchef på Omegapoint Umeå.",
+    "social": [
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/msallstr",
+        "title": "@msallstr"
+      }
+    ]
   },
   {
     "name": "Peter Byström",
