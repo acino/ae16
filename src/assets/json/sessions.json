@@ -45,7 +45,7 @@
   },
   "testdriv-din-databas": {
     "title": "Testdriv din databas",
-    "description": "Workshop där vi visar hur man testdriver fram databaskod i Java EE med hjälp av databasen H2. Implementationen består av två Repositorys, ett som använder JDBC och ett som använder JPA. Vi testdriver alltså både Java-klasserna och SQL/HQL.",
+    "description": "Workshop där vi visar hur man testdriver fram databaskod i Java EE med hjälp av databasen H2. Implementationen består av två Repositorys, ett som använder JDBC och ett som använder JPA. Vi testdriver alltså både Java-klasserna och SQL/HQL.\n\nDeltagare bör ha eclipse eller motsvarande samt git, maven 3 och Java 8 installerat. Du bör också ha gjort följande:\n\n1. Laddat ner https://github.com/jonananas/tdd-the-database (git clone https://github.com/jonananas/tdd-the-database)\n2. Kört mvn clean install i projektet så att dependencies laddats ner.",
     "speaker": {
       "name": "Jonas Andersson",
       "slug": "jonas-andersson",
