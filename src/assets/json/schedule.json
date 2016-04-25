@@ -209,7 +209,7 @@
       "type": "talks",
       "sessions": [
         {
-          "title": "Checklistor",
+          "title": "Implementera process med checklistor",
           "speaker": "Christina Skaskiw",
           "category": "lecture",
           "track": "forelasning",
