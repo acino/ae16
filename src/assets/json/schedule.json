@@ -185,19 +185,19 @@
           "slug": "extreme-agile"
         },
         {
+          "title": "Tre övningar för agila projekt (del 1)",
+          "speaker": "Peter Byström",
+          "category": "workshop",
+          "track": "workshop",
+          "slug": "tre-ovningar-for-agila-projekt"
+        },
+        {
           "title": "Refactorisering av Legacy code (del 1)",
           "speaker": "Björn Palmqvist",
           "category": "workshop",
           "track": "50_50",
           "slug": "refactorisering-av-legacy-code",
           "requiresComputer": true
-        },
-        {
-          "title": "Tre övningar för agila projekt (del 1)",
-          "speaker": "Peter Byström",
-          "category": "workshop",
-          "track": "workshop",
-          "slug": "tre-ovningar-for-agila-projekt"
         }
       ]
     },
@@ -216,19 +216,19 @@
           "slug": "checklistor"
         },
         {
+          "title": "Tre övningar för agila projekt (del 2)",
+          "speaker": "Peter Byström",
+          "category": "workshop",
+          "track": "workshop",
+          "slug": "tre-ovningar-for-agila-projekt"
+        },
+        {
           "title": "Refactorisering av Legacy code (del 2)",
           "speaker": "Björn Palmqvist",
           "category": "workshop",
           "track": "50_50",
           "slug": "refactorisering-av-legacy-code",
           "requiresComputer": true
-        },
-        {
-          "title": "Tre övningar för agila projekt (del 2)",
-          "speaker": "Peter Byström",
-          "category": "workshop",
-          "track": "workshop",
-          "slug": "tre-ovningar-for-agila-projekt"
         }
       ]
     },
