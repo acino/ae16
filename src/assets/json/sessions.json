@@ -98,9 +98,9 @@
     "track": "forelasning",
     "slug": "extreme-agile"
   },
-  "refactorisering-av-legacy-code": {
-    "title": "Refactorisering av Legacy code",
-    "description": "Hic Svnt Dracones!\n\nHur tämjs bestarna som lurar i koden? Hur fjättrars dessa i sina lyor så att vi åter igen kan ströva fritt över våra klasser? Sådana heroiska tekniker kommer vi att diskutera och öva på under denna workshop. Förhoppningsvis kommer du ett steg närmare att vara hjälten i ert team.\n\nVi kommer att använda java, men dessa tekniker är översättningsbara till t.ex. C# eller javascript.",
+  "refaktorisering-av-legacy-code": {
+    "title": "Refaktorisering av Legacy code",
+    "description": "Hic Svnt Dracones!\n\nHur tämjs bestarna som lurar i koden? Hur fjättrars dessa i sina lyor så att vi åter igen kan ströva fritt över våra klasser? Sådana heroiska tekniker kommer vi att diskutera och öva på under denna workshop. Förhoppningsvis kommer du ett steg närmare att vara hjälten i ert team.\n\nVi kommer att använda java, men dessa tekniker är översättningsbara till t.ex. C# eller javascript.\n\nDeltagare bör ha eclipse eller motsvarande samt git, maven 3 och Java 8 installerat. Du bör också ha gjort följande:\n\nLaddat ner https://github.com/aidium/AgileExchange2016 (git clone https://github.com/aidium/AgileExchange2016)",
     "speaker": {
       "name": "Björn Palmqvist",
       "slug": "bjorn-palmqvist",
@@ -108,7 +108,7 @@
     },
     "category": "workshop",
     "track": "50_50",
-    "slug": "refactorisering-av-legacy-code",
+    "slug": "refaktorisering-av-legacy-code",
     "requiresComputer": true
   },
   "tre-ovningar-for-agila-projekt": {
