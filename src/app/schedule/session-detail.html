@@ -8,7 +8,7 @@
     </div>
     <div class="col-xs-12 col-sm-7">
       <h1>{{ session.title }}</h1>
-      <p style="white-space: pre-line" [innerHtml]="session.description | linkify"></p>
+      <p *ngIf="session.description" style="white-space: pre-line" [innerHtml]="session.description | linkify"></p>
       <p *ngIf="session.requiresComputer" class="computer-required">Notera att denna session kräver en dator</p>
     </div>
   </div>
