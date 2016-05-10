@@ -7,7 +7,7 @@ export class LinkifyPipe implements PipeTransform {
     if (value && typeof value === 'string') {
       return value.replace(this.pattern, function(match, $1) {
         return '<a href="' + $1 + '">' + $1 + '</a>';
-      }); 
+      });
     }
     return value;
   }
