@@ -54,6 +54,7 @@
     "category": "workshop",
     "track": "workshop",
     "slug": "testdriv-din-databas",
+    "presentationUrl": "assets/presentations/testdriv-din-databas.pdf",
     "requiresComputer": true
   },
   "ar-det-hogpresterande-teamet-en-utopi": {
@@ -66,7 +67,8 @@
     },
     "category": "lecture",
     "track": "forelasning",
-    "slug": "ar-det-hogpresterande-teamet-en-utopi"
+    "slug": "ar-det-hogpresterande-teamet-en-utopi",
+    "presentationUrl": "assets/presentations/ar-det-hogpresterande-teamet-en-utopi.pdf"
   },
   "agilt-har-sport-och-lagidtrott-nagot-att-tillfora": {
     "title": "Agilt – har sport och lagidrott något att tillföra?",
@@ -78,7 +80,8 @@
     },
     "category": "lecture",
     "track": "50_50",
-    "slug": "agilt-har-sport-och-lagidtrott-nagot-att-tillfora"
+    "slug": "agilt-har-sport-och-lagidtrott-nagot-att-tillfora",
+    "presentationUrl": "assets/presentations/agilt-har-sport-och-lagidtrott-nagot-att-tillfora.pptx"
   },
   "open-space": {
     "title": "Open space",
@@ -109,6 +112,7 @@
     "category": "workshop",
     "track": "50_50",
     "slug": "refaktorisering-av-legacy-code",
+    "presentationUrl": "assets/presentations/refaktorisering-av-legacy-code.pdf",
     "requiresComputer": true
   },
   "tre-ovningar-for-agila-projekt": {
@@ -133,7 +137,8 @@
     },
     "category": "lecture",
     "track": "forelasning",
-    "slug": "checklistor"
+    "slug": "checklistor",
+    "presentationUrl": "assets/presentations/checklistor.pdf"
   },
   "paneldiskussion": {
     "title": "Paneldiskussion",

@@ -10,6 +10,9 @@
       <h1>{{ session.title }}</h1>
       <p *ngIf="session.description" style="white-space: pre-line" [innerHtml]="session.description | linkify"></p>
       <p *ngIf="session.requiresComputer" class="computer-required">Notera att denna session kräver en dator</p>
+      <p *ngIf="session.presentationUrl" style="margin-top: 28px">
+        <a class="btn vba-btn" href="{{ session.presentationUrl }}" target="_blank">Ladda ned presentationen</a>
+      </p>
     </div>
   </div>
   <div *ngIf="!loading && !hasSession">Tyvärr hittade vi ingen session med nyckeln "<strong>{{ query.slug }}</strong>".</div>
